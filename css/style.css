@@ -1,0 +1,370 @@
+@charset 'utf-8' 
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    color: #dedede;
+    background: url('../img/foot.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-size: 1.1em;
+    font-family: Tahoma, sans-serif;
+    line-height: 135%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+a {
+    color: #ff9d00;
+    text-decoration: none;
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #fffaea;
+    text-decoration: none;
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+}
+
+a:active {
+    color: #fffaea;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+.right {
+    float: right;
+    margin: 0;
+}
+
+
+/* Выделение текста*/
+::selection { background: #ff9d00; color: #fffaea;}
+::-moz-selection { background: #ff9d00; color: #fffaea;}
+
+/* Стили для header и footer*/
+
+header, footer {
+    width: 96%;
+    background-color: #262626;
+    float: left;
+}
+
+header {
+    margin-top: -18px;
+    padding: 2%;
+    display: block;
+}
+
+#logo {
+    margin: 0;
+    font-size: 3em;
+    font-family: Mistral, sans-serif;
+    color: #ff9d00;
+    text-shadow: 10px 3px 10px #adff9e;
+}
+
+#logo:hover {
+    color: #fffaea;
+    text-decoration: none;
+    transition: all.4s ease;
+    -moz-transition: all.4s ease;
+    -webkit-transition: all.4s ease;
+    -ms-transition: all.4s ease;
+}
+
+.contact {
+   margin-left: 20px;
+}
+
+.contact a:hover {
+    background-color: #ff9d00;
+    border-radius: 5px;
+}
+
+/*Стили для Menu*/
+
+#menu {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+
+#menuHrefts {
+    background-color: #262626;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    float: left;
+    min-height: 40px;
+}
+
+#menuHrefts a {
+    float: left;
+    margin-left: 30px;
+    padding: 20px;
+}
+
+#menuHrefts a:hover {
+    background-color: #ff9d00;
+    border-radius: 5px;
+    float: left;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+#menuHrefts_left {
+    float: left;
+    margin-top: 3%;
+    margin-left: 3%;
+    background-color: #262626;
+    overflow: hidden;
+    border-radius: 10px;
+    height: 290px;
+}
+
+#menuHrefts_left ul {
+    margin: 10px 0;
+    padding: 0;
+    height: 30px;
+    list-style: none;
+    list-style-position: outside;
+}
+
+#menuHrefts_left a{
+    display: block;
+}
+
+#menuHrefts_left #table {
+    margin: 10px 5px 0 5px;
+}
+
+.league {
+    background-color: #6a6a6a;
+}
+
+#menuHrefts_left a:hover {
+    background-color: #ff9d00;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Стили для нашего wrapper*/
+
+#wrapper {
+    width: 90%;
+}
+
+#wrapper #articles {
+    float: left;
+    width: 80%;
+    margin-top: 3.4%;
+    margin-left: 4%;
+}
+
+#wrapper #articles article {
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #262626;
+    min-height: 400px;
+    margin-bottom: 5%;
+}
+
+#wrapper #articles img {
+    width: 50%;
+    height: 300px;
+    float: left;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#wrapper #articles p {
+    width: 100%;
+    font-family: calibri, sans-serif;
+    font-size: 0.9em;
+}
+
+#wrapper #articles #citata {
+    font-size: 0.6em;
+    margin-top: 5% ;
+    margin-right: 80%;
+    padding-left: 0px;
+    width: 30%;
+}
+
+#wrapper #articles a {
+    padding: 10px 5px;
+    margin-right: 5%;
+    border-radius: 10px;
+    color: #ff9d00;
+    float: right;
+    margin-top: 10px;
+    margin-bottom: 1%;
+    line-height: 10px;
+}
+
+#wrapper #articles a:hover {
+    color: #fffaea;
+    background-color: #ff9d00;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 15px;
+}
+
+
+
+/* Стили для footer*/
+
+#footniz {
+    font-size: 10px;
+    font-size: 10px;
+}
+
+footer {
+    border-top: 2px solid silver;
+    margin-top: 10px;
+    padding: 2%;
+}
+
+footer .left {
+    float: left;
+    font-size: 10px;
+    text-decoration: underline;
+}
+
+#page-wrap:after {
+    content: "";
+    display: block;
+}
+
+footer, #page-wrap:after {
+    height: 20hm;
+}
+
+#page-wrap {
+    min-height: 93%;
+    margin-bottom: -10px;
+}
+
+footer img {
+    width: 15%;
+    float: right;
+    margin-right: 15px;
+}
+
+footer img:hover {
+    background-color: #fffaea;
+    border-radius: 20px;
+    float: right;
+    height: 20%;
+    width: 20%;
+}
+
+.footright {
+    float: right;
+    margin: 0;
+}
+
+/* Стили для страницы menu*/
+
+.content {
+    float: left;
+    margin-top: 4%;
+    margin-left: 25%;
+    background: #262626;
+    border-radius: 10px;
+    min-height: 400px;
+    line-height: 130%;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.content a:hover {
+    background-color: #ff9d00;
+    border-radius: 5px;
+    font-weight: 900;
+}
+
+/* Стили для страницы News*/
+
+.full_title #articles {
+    float: left;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    background: #262626;
+    width: 90%;
+}
+
+.full_title #articles p {
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    font-family: calibri, sans-serif;
+    font-size: 0.9em;
+}
+
+.full_title #articles #citata {
+    font-size: 0.6em;
+    margin-top: 2% ;
+    margin-right: 80%;
+    padding-left: 10px;
+    width: 30%;
+}
+
+.full_title #wrapper_full{
+    text-align: center;
+}
+
+/* страница aboutus*/
+
+.aboutus {
+    float: left;
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 5%;
+    background: #262626;
+    width: 90%;
+}
+
+.aboutus articles p{
+    width: 100%;
+    padding-left: 10px;
+    font-family: calibri, sans-serif;
+    font-size: 0.9em;
+}
+
+.aboutus articles h1 {
+    padding-left: 33%;
+}
